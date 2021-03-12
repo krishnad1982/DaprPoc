@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wow.DaprBlock.Order", "Wow.DaprBlock.Order\Wow.DaprBlock.Order.csproj", "{A87C52CA-F97D-45EC-BD46-260132F75212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.DaprBlock.Core", "Wow.DaprBlock.Core\Wow.DaprBlock.Core.csproj", "{289C5F69-D5BC-47D1-9EC7-7D3AF61C868B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.DaprBlock.Dispatch", "Wow.DaprBlock.Dispatch\Wow.DaprBlock.Dispatch.csproj", "{DA8B4949-C10A-4676-AAF2-B1C5AB08D523}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{FBD1B938-D896-470E-8FF2-F16403BFB15F}"
+	ProjectSection(SolutionItems) = preProject
+		Wow.DaprBlock.Dispatch\Components\pubsub.yaml = Wow.DaprBlock.Dispatch\Components\pubsub.yaml
+		Wow.DaprBlock.Dispatch\Components\subscribe.yaml = Wow.DaprBlock.Dispatch\Components\subscribe.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A87C52CA-F97D-45EC-BD46-260132F75212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87C52CA-F97D-45EC-BD46-260132F75212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87C52CA-F97D-45EC-BD46-260132F75212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87C52CA-F97D-45EC-BD46-260132F75212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289C5F69-D5BC-47D1-9EC7-7D3AF61C868B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289C5F69-D5BC-47D1-9EC7-7D3AF61C868B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289C5F69-D5BC-47D1-9EC7-7D3AF61C868B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289C5F69-D5BC-47D1-9EC7-7D3AF61C868B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8B4949-C10A-4676-AAF2-B1C5AB08D523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8B4949-C10A-4676-AAF2-B1C5AB08D523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8B4949-C10A-4676-AAF2-B1C5AB08D523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8B4949-C10A-4676-AAF2-B1C5AB08D523}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D6D2934-63A3-47A0-AB49-FD7934EF3BFA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: wowpublish
+  namespace: default
+spec:
+  type: pubsub.azure.servicebus
+  version: v1
+  metadata:
+  - name: connectionString
+    value: "<Message Broker Endpoint>"
+  - name: timeoutInSec 
+    value: 60
+  - name: handlerTimeoutInSec 
+    value: 60
+  - name: disableEntityManagement 
+    value: "false" 
+  - name: maxDeliveryCount 
+    value: 3
+  - name: lockDurationInSec 
+    value: 60 
+  - name: lockRenewalInSec 
+    value: 20 
+  - name: maxActiveMessages 
+    value: 2000 
+  - name: maxActiveMessagesRecoveryInSec 
+    value: 2 
+  - name: maxConcurrentHandlers 
+    value: 10
+  - name: prefetchCount 
+    value: 5
+  - name: defaultMessageTimeToLiveInSec 
+    value: 10
