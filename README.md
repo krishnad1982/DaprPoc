@@ -1,6 +1,7 @@
-# Dapr POC Verison 1.0
+# Dapr POC Version 1.0
 
-This example shows a basic idea about how we can use pub/sub, state management, secrets and observability building blocks in Dapr
+This example shows a basic idea about how we can use pub/sub, state management, secrets and observability building blocks in Dapr.
+
 This project has got two services
 - Order
 - Dispatch
