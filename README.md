@@ -21,4 +21,11 @@ For more information, visit the article explaining this workflow
 - Run the below command from dispatch service's root folder (in the powershell/cmd)
 - ```dapr run --app-id dispatch-app --app-port 5000 --dapr-http-port 3500 --components-path ../components dotnet run```
 
+## Postman
+- Publish an order - http://localhost:5005/order/createorder POST
+- Get the order subscription - http://localhost:5000/dapr/subscribe GET
+- Create state management - http://localhost:5005/state/createstate POST
+- Get the state management value - http://localhost:5000/state/{state-key} GET
+- Get secret - http://localhost:3501/v1.0/secrets/wowsecret/{secret-key} GET
+
 Reference: https://docs.dapr.io/getting-started/install-dapr-cli/
