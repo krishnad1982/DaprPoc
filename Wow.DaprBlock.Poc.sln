@@ -5,14 +5,17 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wow.DaprBlock.Order", "Wow.DaprBlock.Order\Wow.DaprBlock.Order.csproj", "{A87C52CA-F97D-45EC-BD46-260132F75212}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.DaprBlock.Core", "Wow.DaprBlock.Core\Wow.DaprBlock.Core.csproj", "{289C5F69-D5BC-47D1-9EC7-7D3AF61C868B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wow.DaprBlock.Core", "Wow.DaprBlock.Core\Wow.DaprBlock.Core.csproj", "{289C5F69-D5BC-47D1-9EC7-7D3AF61C868B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wow.DaprBlock.Dispatch", "Wow.DaprBlock.Dispatch\Wow.DaprBlock.Dispatch.csproj", "{DA8B4949-C10A-4676-AAF2-B1C5AB08D523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wow.DaprBlock.Dispatch", "Wow.DaprBlock.Dispatch\Wow.DaprBlock.Dispatch.csproj", "{DA8B4949-C10A-4676-AAF2-B1C5AB08D523}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{FBD1B938-D896-470E-8FF2-F16403BFB15F}"
 	ProjectSection(SolutionItems) = preProject
-		Wow.DaprBlock.Dispatch\Components\pubsub.yaml = Wow.DaprBlock.Dispatch\Components\pubsub.yaml
-		Wow.DaprBlock.Dispatch\Components\subscribe.yaml = Wow.DaprBlock.Dispatch\Components\subscribe.yaml
+		components\appsecrets.json = components\appsecrets.json
+		components\wowpublish.yaml = components\wowpublish.yaml
+		components\wowsecret.yaml = components\wowsecret.yaml
+		components\wowstatemanage.yaml = components\wowstatemanage.yaml
+		components\wowsubscribe.yaml = components\wowsubscribe.yaml
 	EndProjectSection
 EndProject
 Global
