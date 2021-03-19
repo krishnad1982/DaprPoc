@@ -6,7 +6,7 @@ This project has got two services
 - Order
 - Dispatch
 
-For more information, visit the article explaining this workflow
+For more information, visit the [article](https://www.linkedin.com/pulse/dapr-action-krishna-raj-d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_details_shares%3BsN5vxCz6RkulewfE%2BLg6mQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base_recent_activity_details_shares-article_description) explaining this workflow
 
 - `pub/sub` publish sub using Dapr and Azure service bus.
 - `state management` iState management using Dapr and Redis
@@ -21,9 +21,10 @@ For more information, visit the article explaining this workflow
 - Run the below command from dispatch service's root folder (in the powershell/cmd)
 - ```dapr run --app-id dispatch-app --app-port 5000 --dapr-http-port 3500 --components-path ../components dotnet run```
 
-## Azure ServiceBus
+## Azure Service Bus
 - Create a topic called "order"
 - Add the root shared access policy connection string in the `\Wow.DaprBlock.Poc\components\wowpublish.yaml` Message Broker Placeholder.
+- Dispatch subscription will create automatically by Dapr when you run your Dispatch service.
 
 ## Postman
 - Publish an order - http://localhost:5005/order/createorder POST
